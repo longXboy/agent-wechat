@@ -162,7 +162,7 @@ For production or when running alongside other services (e.g., OpenClaw), use th
 ```yaml
 services:
   agent-wechat:
-    image: ghcr.io/thisnick/agent-wechat:latest
+    image: ghcr.io/longxboy/agent-wechat:latest
     container_name: agent-wechat
     security_opt:
       - seccomp=unconfined

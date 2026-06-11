@@ -74,7 +74,7 @@ Commands:
 
 Options:
   --data-dir <path>  Override data directory
-  --image <name>     Docker image (default: ghcr.io/agent-wechat/agent-wechat:latest)
+  --image <name>     Docker image (default: ghcr.io/longxboy/agent-wechat:latest)
   --arch <arch>      Download arch override (x64 or arm64)
   --token <token>    API token override for serve
 `);

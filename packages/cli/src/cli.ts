@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
 declare const PKG_VERSION: string;
 const VERSION = PKG_VERSION;
 const CONTAINER_NAME = "agent-wechat";
-const GHCR_IMAGE = "ghcr.io/thisnick/agent-wechat";
+const GHCR_IMAGE = "ghcr.io/longxboy/agent-wechat";
 const DEFAULT_PORT = 6174;
 
 // Get monorepo root (cli is at packages/cli)

@@ -4,7 +4,7 @@ This repo releases three artifacts together:
 
 1. npm CLI package: `@agent-wechat/cli`
 2. npm OpenClaw extension: `@agent-wechat/wechat`
-3. Docker image: `ghcr.io/thisnick/agent-wechat`
+3. Docker image: `ghcr.io/longxboy/agent-wechat`
 
 ## Prepare A Release
 

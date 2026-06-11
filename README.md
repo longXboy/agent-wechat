@@ -92,7 +92,7 @@ wx down
 **Option A: Via CLI** (recommended)
 
 ```bash
-wx up    # auto-pulls ghcr.io/thisnick/agent-wechat
+wx up    # auto-pulls ghcr.io/longxboy/agent-wechat
 ```
 
 **Option B: Docker Compose** (for custom networking)
@@ -107,7 +107,7 @@ See [`docker-compose.yml`](./docker-compose.yml) for a full example. Key points:
 
 services:
   agent-wechat:
-    image: ghcr.io/thisnick/agent-wechat:latest
+    image: ghcr.io/longxboy/agent-wechat:latest
     security_opt:
       - seccomp=unconfined
     cap_add:
